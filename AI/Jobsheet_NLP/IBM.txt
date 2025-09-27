@@ -1,0 +1,17 @@
+Sementara sejumlah definisi kecerdasan buatan (AI) telah muncul selama beberapa dekade terakhir, John McCarthy menawarkan definisi berikut dalam makalah tahun 2004 ini (tautan berada di luar ibm.com), " AI adalah ilmu pengetahuan dan teknik membuat mesin cerdas, terutama program komputer cerdas. Hal ini terkait dengan tugas yang sama yaitu menggunakan komputer untuk memahami kecerdasan manusia, tetapi AI tidak harus membatasi diri pada metode yang dapat diamati secara biologis."
+
+Namun, beberapa dekade sebelum definisi ini, kelahiran percakapan tentang kecerdasan buatan ditandai dengan karya penting Alan Turing, "Computing Machinery and Intelligence"(tautan berada di luar ibm.com), yang diterbitkan pada tahun 1950. Dalam makalah ini, Turing, yang sering disebut sebagai "bapak ilmu komputer", mengajukan pertanyaan berikut, "Dapatkah mesin berpikir?"  Dari sana, ia menawarkan sebuah tes, yang sekarang terkenal dengan sebutan "Turing Test", di mana seorang interogator manusia akan mencoba membedakan antara respons teks komputer dan manusia. Meskipun tes ini telah mengalami banyak pengawasan sejak diterbitkan, tes ini tetap menjadi bagian penting dari sejarah AI serta konsep yang sedang berlangsung dalam filsafat karena menggunakan ide-ide seputar linguistik.
+
+Stuart Russell dan Peter Norvig kemudian melanjutkan untuk menerbitkan, Artificial Intelligence: A Modern Approach (tautan berada di luar ibm.com), yang menjadi salah satu buku teks terkemuka dalam studi AI. Di dalamnya, mereka mempelajari empat tujuan potensial atau definisi AI, yang membedakan sistem komputer berdasarkan rasionalitas dan pemikiran vs. tindakan:
+
+Pendekatan manusia:
+
+Sistem yang berpikir seperti manusia
+Sistem yang bertindak seperti manusia
+Pendekatan yang ideal:
+
+Sistem yang berpikir secara rasional
+Sistem yang bertindak secara rasional
+Definisi Alan Turing akan masuk dalam kategori "sistem yang bertindak seperti manusia."
+
+Paling sederhananya, kecerdasan buatan adalah sebuah bidang yang menggabungkan ilmu komputer dan kumpulan data yang kuat, untuk memungkinkan pemecahan masalah. Bidang ini juga mencakup sub-bidang pembelajaran mesin dan pembelajaran mendalam, yang sering disebut-sebut dalam hubungannya dengan kecerdasan buatan. Disiplin ilmu ini terdiri dari algoritme AI yang berusaha menciptakan sistem pakar yang membuat prediksi atau klasifikasi berdasarkan data masukan.

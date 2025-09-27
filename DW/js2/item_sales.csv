@@ -1,0 +1,11 @@
+item_id,item_name,quantity_sold,price_per_unit
+1,Pensil,50,1500
+2,Buku Tulis,30,2500
+3,Penghapus,40,1000
+4,Penggaris,25,2000
+5,Kertas A4,100,500
+6,Spidol,20,3000
+7,Sticky Notes,60,1200
+8,Alat Gambar,15,5000
+9,Klem,35,700
+10,Bookmarker,45,800
