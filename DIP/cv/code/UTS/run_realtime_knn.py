@@ -20,13 +20,13 @@ while True:
     faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(60, 60))
 
     detected_name = "Tidak Dikenali"
-    confidence_score = 0.0
+    confidence_percent = 0
 
     for (x, y, w, h) in faces:
         face_roi = frame[y:y+h, x:x+w]
 
         try:
-            # Ekstraksi embedding wajah
+            # Ekstraksi embedding wajah baru
             embedding = DeepFace.represent(
                 img_path=face_roi,
                 model_name="VGG-Face",
@@ -34,25 +34,25 @@ while True:
                 enforce_detection=False
             )[0]["embedding"]
 
-            # Prediksi probabilitas
+            # Prediksi dengan K-NN
             pred_proba = knn.predict_proba([embedding])[0]
             max_prob = np.max(pred_proba)
             predicted_label = knn.predict([embedding])[0]
 
-            # Gunakan threshold (misal: 0.6)
-            if max_prob >= 0.6:
+            confidence_percent = int(max_prob * 100)
+
+            if confidence_percent >= 60:  # threshold bisa diatur
                 detected_name = predicted_label
-                confidence_score = max_prob
             else:
                 detected_name = "Tidak Dikenali"
-                confidence_score = 0.0
+                confidence_percent = 0
 
-            # Warna: hijau jika dikenali, merah jika tidak
+            # Gambar bounding box
             color = (0, 255, 0) if detected_name != "Tidak Dikenali" else (0, 0, 255)
-
-            # Format confidence: 0.875 (3 desimal)
-            label_text = f"{detected_name} ({confidence_score:.3f})"
             cv2.rectangle(frame, (x, y), (x + w, y + h), color, 2)
+            
+            # Tampilkan nama + confidence di atas bounding box
+            label_text = f"{detected_name} ({confidence_percent}%)"
             cv2.putText(frame, label_text, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.7, color, 2)
 
         except Exception as e:
@@ -60,7 +60,7 @@ while True:
             continue
 
     # Tampilkan di pojok kanan atas
-    status_text = f"Detected: {detected_name} ({confidence_score:.3f})"
+    status_text = f"Detected: {detected_name} ({confidence_percent}%)"
     cv2.putText(frame, status_text, 
                 (frame.shape[1] - 400, 30), 
                 cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 255, 255), 2, cv2.LINE_AA)
