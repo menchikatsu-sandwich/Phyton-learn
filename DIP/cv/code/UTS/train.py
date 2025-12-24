@@ -3,10 +3,12 @@
 Training script untuk Face Recognition System dengan CNN Neural Network
 Menggunakan Viola-Jones untuk deteksi dan CNN untuk feature extraction
 """
-
+import os
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+import tensorflow as tf
 import cv2
 import numpy as np
-import os
 from utils import (
     detect_faces_viola_jones,
     extract_face_roi,
@@ -17,7 +19,6 @@ from utils import (
 from sklearn.preprocessing import StandardScaler
 import pickle
 import config
-import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
 import time

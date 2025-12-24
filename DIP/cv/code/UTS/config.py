@@ -83,3 +83,21 @@ COLOR_LOW_CONFIDENCE = 0.0  # Red
 # Font settings
 FONT_SCALE = 0.6
 FONT_THICKNESS = 2
+
+# ============================================
+# HAND / MOTION CONFIGURATION
+# ============================================
+# Enable simple hand detection + finger counting (contour + convexity defects)
+HAND_DETECTION_ENABLED = True
+
+# Minimum contour area to be considered a hand
+HAND_MIN_CONTOUR_AREA = 2000
+
+# Convexity defect depth threshold (relative to contour perimeter)
+HAND_DEFECT_DEPTH_RATIO = 0.01
+
+# Maximum angle (degrees) between defect points to consider a finger gap
+HAND_DEFECT_ANGLE_THRESH = 90
+
+# Toggle visualization of per-hand bounding boxes and counts
+HAND_SHOW_VIS = True

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+  <filename>IMG_0230_JPG.rf.6aa737da228dfd6ab26b74bbcd84b98e.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>Leaf_Mold</name>
+    <bndbox>
+      <xmin>148</xmin>
+      <ymin>373</ymin>
+      <xmax>221</xmax>
+      <ymax>424</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Black_Spot</name>
+    <bndbox>
+      <xmin>229</xmin>
+      <ymin>288</ymin>
+      <xmax>262</xmax>
+      <ymax>304</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Early_Blight</name>
+    <bndbox>
+      <xmin>277</xmin>
+      <ymin>280</ymin>
+      <xmax>300</xmax>
+      <ymax>297</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Early_Blight</name>
+    <bndbox>
+      <xmin>125</xmin>
+      <ymin>238</ymin>
+      <xmax>174</xmax>
+      <ymax>264</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+  <filename>IMG_1130_JPG.rf.db0a841864c3d3dde83d2e7ea6dcfd98.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>Late_Blight</name>
+    <bndbox>
+      <xmin>137</xmin>
+      <ymin>44</ymin>
+      <xmax>517</xmax>
+      <ymax>557</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+  <filename>IMG_0377_JPG.rf.8ff17327d2b14e1859bb8e3cb97f14d2.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>Target_Spot</name>
+    <bndbox>
+      <xmin>189</xmin>
+      <ymin>212</ymin>
+      <xmax>243</xmax>
+      <ymax>252</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Early_Blight</name>
+    <bndbox>
+      <xmin>110</xmin>
+      <ymin>239</ymin>
+      <xmax>132</xmax>
+      <ymax>256</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Late_Blight</name>
+    <bndbox>
+      <xmin>101</xmin>
+      <ymin>335</ymin>
+      <xmax>137</xmax>
+      <ymax>371</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Early_Blight</name>
+    <bndbox>
+      <xmin>210</xmin>
+      <ymin>385</ymin>
+      <xmax>231</xmax>
+      <ymax>399</ymax>
+    </bndbox>
+  </object>
+</annotation>

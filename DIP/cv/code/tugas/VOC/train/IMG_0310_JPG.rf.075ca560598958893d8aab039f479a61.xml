@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+  <filename>IMG_0310_JPG.rf.075ca560598958893d8aab039f479a61.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>Late_Blight</name>
+    <bndbox>
+      <xmin>418</xmin>
+      <ymin>141</ymin>
+      <xmax>475</xmax>
+      <ymax>186</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Late_Blight</name>
+    <bndbox>
+      <xmin>217</xmin>
+      <ymin>141</ymin>
+      <xmax>300</xmax>
+      <ymax>187</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Late_Blight</name>
+    <bndbox>
+      <xmin>220</xmin>
+      <ymin>67</ymin>
+      <xmax>316</xmax>
+      <ymax>121</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Late_Blight</name>
+    <bndbox>
+      <xmin>238</xmin>
+      <ymin>11</ymin>
+      <xmax>395</xmax>
+      <ymax>55</ymax>
+    </bndbox>
+  </object>
+</annotation>

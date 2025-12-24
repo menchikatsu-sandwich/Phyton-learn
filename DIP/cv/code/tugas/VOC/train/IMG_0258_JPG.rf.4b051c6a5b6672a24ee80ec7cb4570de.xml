@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+  <filename>IMG_0258_JPG.rf.4b051c6a5b6672a24ee80ec7cb4570de.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>Leaf_Mold</name>
+    <bndbox>
+      <xmin>325</xmin>
+      <ymin>265</ymin>
+      <xmax>336</xmax>
+      <ymax>272</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Leaf_Mold</name>
+    <bndbox>
+      <xmin>399</xmin>
+      <ymin>285</ymin>
+      <xmax>413</xmax>
+      <ymax>295</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Leaf_Mold</name>
+    <bndbox>
+      <xmin>375</xmin>
+      <ymin>269</ymin>
+      <xmax>389</xmax>
+      <ymax>276</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Leaf_Mold</name>
+    <bndbox>
+      <xmin>272</xmin>
+      <ymin>277</ymin>
+      <xmax>284</xmax>
+      <ymax>285</ymax>
+    </bndbox>
+  </object>
+</annotation>

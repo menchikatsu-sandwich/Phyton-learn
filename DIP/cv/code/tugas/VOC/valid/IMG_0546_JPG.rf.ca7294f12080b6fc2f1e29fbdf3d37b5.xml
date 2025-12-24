@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+  <filename>IMG_0546_JPG.rf.ca7294f12080b6fc2f1e29fbdf3d37b5.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>Early_Blight</name>
+    <bndbox>
+      <xmin>377</xmin>
+      <ymin>189</ymin>
+      <xmax>426</xmax>
+      <ymax>220</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Early_Blight</name>
+    <bndbox>
+      <xmin>219</xmin>
+      <ymin>156</ymin>
+      <xmax>249</xmax>
+      <ymax>173</ymax>
+    </bndbox>
+  </object>
+</annotation>

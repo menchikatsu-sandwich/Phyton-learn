@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+  <filename>IMG_1128_JPG.rf.2b6c8bd27f4affcd740259c710285fa4.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>Bacterial_Spot</name>
+    <bndbox>
+      <xmin>215</xmin>
+      <ymin>435</ymin>
+      <xmax>239</xmax>
+      <ymax>454</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Black_Spot</name>
+    <bndbox>
+      <xmin>135</xmin>
+      <ymin>303</ymin>
+      <xmax>169</xmax>
+      <ymax>319</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Black_Spot</name>
+    <bndbox>
+      <xmin>391</xmin>
+      <ymin>270</ymin>
+      <xmax>434</xmax>
+      <ymax>295</ymax>
+    </bndbox>
+  </object>
+</annotation>

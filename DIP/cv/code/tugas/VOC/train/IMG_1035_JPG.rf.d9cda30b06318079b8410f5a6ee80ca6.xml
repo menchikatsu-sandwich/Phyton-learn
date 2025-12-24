@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+  <filename>IMG_1035_JPG.rf.d9cda30b06318079b8410f5a6ee80ca6.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>Early_Blight</name>
+    <bndbox>
+      <xmin>331</xmin>
+      <ymin>228</ymin>
+      <xmax>346</xmax>
+      <ymax>240</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Bacterial_Spot</name>
+    <bndbox>
+      <xmin>449</xmin>
+      <ymin>107</ymin>
+      <xmax>471</xmax>
+      <ymax>119</ymax>
+    </bndbox>
+  </object>
+</annotation>

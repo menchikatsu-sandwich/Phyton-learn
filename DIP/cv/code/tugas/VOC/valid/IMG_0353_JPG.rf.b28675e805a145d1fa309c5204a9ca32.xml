@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+  <filename>IMG_0353_JPG.rf.b28675e805a145d1fa309c5204a9ca32.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>Early_Blight</name>
+    <bndbox>
+      <xmin>285</xmin>
+      <ymin>94</ymin>
+      <xmax>297</xmax>
+      <ymax>102</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Early_Blight</name>
+    <bndbox>
+      <xmin>253</xmin>
+      <ymin>61</ymin>
+      <xmax>264</xmax>
+      <ymax>67</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Black_Spot</name>
+    <bndbox>
+      <xmin>254</xmin>
+      <ymin>127</ymin>
+      <xmax>263</xmax>
+      <ymax>133</ymax>
+    </bndbox>
+  </object>
+</annotation>

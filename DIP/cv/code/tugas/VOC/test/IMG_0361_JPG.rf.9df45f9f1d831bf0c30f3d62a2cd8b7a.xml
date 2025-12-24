@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+  <filename>IMG_0361_JPG.rf.9df45f9f1d831bf0c30f3d62a2cd8b7a.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>Target_Spot</name>
+    <bndbox>
+      <xmin>219</xmin>
+      <ymin>118</ymin>
+      <xmax>261</xmax>
+      <ymax>159</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Target_Spot</name>
+    <bndbox>
+      <xmin>172</xmin>
+      <ymin>553</ymin>
+      <xmax>205</xmax>
+      <ymax>588</ymax>
+    </bndbox>
+  </object>
+</annotation>

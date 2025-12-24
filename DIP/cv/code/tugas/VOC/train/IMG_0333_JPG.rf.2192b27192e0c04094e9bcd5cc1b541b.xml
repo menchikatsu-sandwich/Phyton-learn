@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+  <filename>IMG_0333_JPG.rf.2192b27192e0c04094e9bcd5cc1b541b.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>Black_Spot</name>
+    <bndbox>
+      <xmin>386</xmin>
+      <ymin>278</ymin>
+      <xmax>417</xmax>
+      <ymax>295</ymax>
+    </bndbox>
+  </object>
+</annotation>

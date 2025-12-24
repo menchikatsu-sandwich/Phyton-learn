@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+  <filename>IMG_0997_JPG.rf.4fdb387441f1bc4a90707e86601ba0b2.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>Black_Spot</name>
+    <bndbox>
+      <xmin>325</xmin>
+      <ymin>321</ymin>
+      <xmax>345</xmax>
+      <ymax>337</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Black_Spot</name>
+    <bndbox>
+      <xmin>264</xmin>
+      <ymin>429</ymin>
+      <xmax>274</xmax>
+      <ymax>439</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Target_Spot</name>
+    <bndbox>
+      <xmin>369</xmin>
+      <ymin>398</ymin>
+      <xmax>384</xmax>
+      <ymax>408</ymax>
+    </bndbox>
+  </object>
+</annotation>

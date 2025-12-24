@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+  <filename>IMG_0700_JPG.rf.2a378c69fbbacc991c4b485254d342df.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>Healthy</name>
+    <bndbox>
+      <xmin>43</xmin>
+      <ymin>101</ymin>
+      <xmax>568</xmax>
+      <ymax>604</ymax>
+    </bndbox>
+  </object>
+</annotation>

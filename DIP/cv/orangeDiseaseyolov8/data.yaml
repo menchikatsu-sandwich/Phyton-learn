@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Canker', 'Healthy_Sehat']
+
+roboflow:
+  workspace: computer-vision-1-7tnmh
+  project: orange-diseases-q4gp5
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/computer-vision-1-7tnmh/orange-diseases-q4gp5/dataset/3
